@@ -843,12 +843,13 @@
         display: inline;
         color: turquoise;
         margin-left: 160px;
-        transform: translate(0px, 0px);
+        left: 0;
         position: relative;
     }
 
     .navbar-brand{
         position: absolute;
+        width: 100%;
     }
     
     .about__list{
