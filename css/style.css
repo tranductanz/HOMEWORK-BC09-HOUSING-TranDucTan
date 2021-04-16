@@ -470,7 +470,13 @@
     .navbar-brand,
     .navbar-brand span{
         font-size: 30px;
+        width: 150px;
     }
+
+    .nav-link a{
+        width: 200px;
+    }
+
 
     .nav-item a{
         font-size: 20px;
@@ -608,10 +614,21 @@
 @media screen and (max-width: 996px) {
     
     .header__menu__icon{
-        font-size: 35px;
+        font-size: 45px;
         display: inline;
         color: turquoise;
-        margin-left: 450px;
+        margin-left: 160px;
+        left: 390px;
+        position: relative;
+    }
+    .navbar-brand{
+        position: absolute;
+        width: 100%;
+        font-size: 45px;
+    }
+
+    .navbar-brand span{
+        font-size: 45px;
     }
 
     .carousel-caption{
@@ -716,7 +733,19 @@
    
 }
 @media screen and (max-width: 768px){
-    
+    .header__menu__icon{
+        font-size: 35px;
+        display: inline;
+        color: turquoise;
+        margin-left: 160px;
+        left: 250px;
+        position: relative;
+    }
+
+    .navbar-brand{
+        position: absolute;
+        width: 100%;
+    }
     .about__list{
         display: block;
     }
@@ -814,7 +843,12 @@
         display: inline;
         color: turquoise;
         margin-left: 160px;
-        transform: translate(-200px, -40px);
+        transform: translate(0px, 0px);
+        position: relative;
+    }
+
+    .navbar-brand{
+        position: absolute;
     }
     
     .about__list{
