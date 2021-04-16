@@ -223,6 +223,13 @@
 
 /* GET MORE */
 
+.getmore__content >i{
+    position: relative;
+    font-size: 80px;
+    color: white;
+    transform: translate(390px, 350px);
+    opacity: 50%;
+}
 
 .getmore__list{
     display: flex;
@@ -353,6 +360,7 @@
     background-color: rgba(0, 0, 0, 0.800);
     text-align: center;
     color: white;
+    
 }
 .team__item{
     width: 25%;
@@ -388,6 +396,7 @@
     height: 30px;
     line-height: 30px;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 
 
